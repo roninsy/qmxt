@@ -1,0 +1,284 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AliyunOSSiOS (2.10.9)
+  - AMapFoundation-NO-IDFA (1.6.7)
+  - AMapLocation-NO-IDFA (2.6.8):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - AMapSearch-NO-IDFA (7.9.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.6)
+  - BMPlayer (1.3.2):
+    - BMPlayer/Full (= 1.3.2)
+  - BMPlayer/Core (1.3.2)
+  - BMPlayer/Full (1.3.2):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.7.0)
+    - SnapKit (~> 5.0.0)
+  - BSText (1.1.2):
+    - YYImage
+  - Bugly (2.5.90)
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - ESTabBarController-swift (2.8.0)
+  - HEPhotoPicker (0.0.8)
+  - Hue (5.0.0)
+  - ImagePicker (3.2.0)
+  - IQKeyboardManagerSwift (6.3.0)
+  - JAnalytics (2.1.2):
+    - JCore (< 3.0.0, >= 1.2.0)
+  - JCore (2.1.4-noidfa)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JShare (1.8.1):
+    - JCore (< 3.0.0, >= 1.2.0)
+  - JXPagingView/Paging (2.1.0)
+  - JXPhotoBrowser (3.1.3)
+  - JXSegmentedView (1.2.7)
+  - KakaJSON (1.1.2)
+  - Kingfisher (6.3.0)
+  - LLCycleScrollView (1.6.0):
+    - Kingfisher
+  - Log (2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.6.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - NTESBaseComponent (1.2)
+  - NTESQuickPass (3.1.7):
+    - NTESBaseComponent (= 1.2)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - Permission/Camera (3.1.2):
+    - Permission/Core
+  - Permission/Core (3.1.2)
+  - Permission/Notifications (3.1.2):
+    - Permission/Core
+  - Player (0.13.3)
+  - Protobuf (3.17.0)
+  - ReactiveCocoa (11.2.1):
+    - ReactiveSwift (~> 6.6)
+  - ReactiveSwift (6.6.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SCLAlertView (0.8)
+  - SensorsAnalyticsSDK (2.6.4):
+    - SensorsAnalyticsSDK/Core (= 2.6.4)
+  - SensorsAnalyticsSDK/Common (2.6.4)
+  - SensorsAnalyticsSDK/Core (2.6.4):
+    - SensorsAnalyticsSDK/Common
+    - SensorsAnalyticsSDK/Gesture
+    - SensorsAnalyticsSDK/Visualized
+  - SensorsAnalyticsSDK/Gesture (2.6.4):
+    - SensorsAnalyticsSDK/Common
+  - SensorsAnalyticsSDK/Visualized (2.6.4):
+    - SensorsAnalyticsSDK/Common
+  - SnapKit (5.0.1)
+  - SSZipArchive (2.4.1)
+  - SVGAPlayer (2.5.6):
+    - SVGAPlayer/Core (= 2.5.6)
+    - SVGAPlayer/ProtoFiles (= 2.5.6)
+  - SVGAPlayer/Core (2.5.6):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.6):
+    - Protobuf (~> 3.4)
+  - swiftScan (1.2.1)
+  - SwiftyJSON (4.3.0)
+  - SwiftyStoreKit (0.16.1)
+  - SwiftyUserDefaults (5.3.0)
+  - TangramKit (1.4.2)
+  - TextAttributes (2.0.2)
+  - Toast-Swift (5.0.1)
+  - WechatOpenSDK (1.8.7.1)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - ZLPhotoBrowser (4.1.6):
+    - ZLPhotoBrowser/Core (= 4.1.6)
+  - ZLPhotoBrowser/Core (4.1.6)
+
+DEPENDENCIES:
+  - AliyunOSSiOS
+  - AMapLocation-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - BMPlayer (~> 1.3.0)
+  - BSText
+  - Bugly
+  - CollectionKit
+  - ESTabBarController-swift
+  - HEPhotoPicker
+  - Hue
+  - ImagePicker
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - JAnalytics
+  - JCore (= 2.1.4-noidfa)
+  - JPush (= 3.2.6)
+  - JShare (= 1.8.1)
+  - JXPagingView/Paging
+  - JXPhotoBrowser
+  - JXSegmentedView
+  - KakaJSON (~> 1.1.2)
+  - Kingfisher (~> 6.0)
+  - LLCycleScrollView
+  - Log
+  - Masonry
+  - MBProgressHUD (~> 1.2.0)
+  - MJRefresh
+  - Moya (~> 14.0)
+  - NTESQuickPass
+  - NVActivityIndicatorView
+  - Permission/Camera
+  - Permission/Notifications
+  - Player (~> 0.13.2)
+  - ReactiveCocoa
+  - ReactiveSwift (~> 6.1)
+  - RxCocoa (= 6.1.0)
+  - RxSwift (= 6.1.0)
+  - SCLAlertView
+  - SensorsAnalyticsSDK
+  - SnapKit (~> 5.0.0)
+  - SVGAPlayer
+  - swiftScan (from `https://github.com/MxABC/swiftScan.git`)
+  - SwiftyJSON (~> 4.0)
+  - SwiftyStoreKit
+  - SwiftyUserDefaults (~> 5.0)
+  - TangramKit
+  - TextAttributes
+  - Toast-Swift (~> 5.0.1)
+  - WechatOpenSDK
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AliyunOSSiOS
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - BMPlayer
+    - BSText
+    - Bugly
+    - CollectionKit
+    - ESTabBarController-swift
+    - HEPhotoPicker
+    - Hue
+    - ImagePicker
+    - IQKeyboardManagerSwift
+    - JAnalytics
+    - JCore
+    - JPush
+    - JShare
+    - JXPagingView
+    - JXPhotoBrowser
+    - JXSegmentedView
+    - KakaJSON
+    - Kingfisher
+    - LLCycleScrollView
+    - Log
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - NTESBaseComponent
+    - NTESQuickPass
+    - NVActivityIndicatorView
+    - Permission
+    - Player
+    - Protobuf
+    - ReactiveCocoa
+    - ReactiveSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SCLAlertView
+    - SensorsAnalyticsSDK
+    - SnapKit
+    - SSZipArchive
+    - SVGAPlayer
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - SwiftyUserDefaults
+    - TangramKit
+    - TextAttributes
+    - Toast-Swift
+    - WechatOpenSDK
+    - YYImage
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  swiftScan:
+    :git: https://github.com/MxABC/swiftScan.git
+
+CHECKOUT OPTIONS:
+  swiftScan:
+    :commit: b0cc9aea11140125b75d1baaccb16c9567cdf69a
+    :git: https://github.com/MxABC/swiftScan.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AliyunOSSiOS: 13173e9eaf05d3816315319876025de3028ea31d
+  AMapFoundation-NO-IDFA: ec05c37e6991ca9a9c5f5e38d3069581be57b6a0
+  AMapLocation-NO-IDFA: 84418826d61f64a0fc971fbd69e0ef2d16036275
+  AMapSearch-NO-IDFA: 8b4f223cb2a637e4344fc202042f084c862c07b1
+  BMPlayer: e4b241bd088644d7b89d991a1a65d1b1615d19b3
+  BSText: 70f0da93875c5f1dd6ab9e27fc22b1e50a41b66c
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  HEPhotoPicker: 52831f8db5f3cd4b47925968cdb06131549b007f
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  JAnalytics: 46c696f8ebbe486f871cebd31047e00b299be6ba
+  JCore: 2f15311e6889ab43ed5d629802ef793cac566465
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  JShare: d19013ffb1a095de31b20236fe08e9c74064cfe5
+  JXPagingView: ef48a5a2392252c68db7999de38f4761a2707e2a
+  JXPhotoBrowser: d32e94e1226d43bf5ed83164e3f5b651fed625e0
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  LLCycleScrollView: a08f666671f9fd1a205df9defebc3c217d59abc8
+  Log: 73fab10e8b88f15cef5f322b12c9be87cf19ee6e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  NTESBaseComponent: 31c41d1706e767ebfd05b4f40fbde5ef33a8db66
+  NTESQuickPass: 4693014b5ea303ef485b8db8eadfd9d7116b425c
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  Player: e1889a481f14b3bc4065b62bed304c3de3b47dfe
+  Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
+  ReactiveCocoa: 194289e7069037d40c59cb4ae9230f4b1ec05fa8
+  ReactiveSwift: be9407e2aaf8a11e53a5229255693cffd9a63ccf
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SensorsAnalyticsSDK: 163a99cc1605eb67b22fc605db29de5e325c9d5f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SSZipArchive: 5232069783e7495861062b54ab3b7f8d4426bbb6
+  SVGAPlayer: f3b3792ae66f7cb3f944ae373a40864db9a04331
+  swiftScan: 0849e7d7c1c641384767a573ee8cb90b88d1ddd9
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
+  TangramKit: aad3ab8f9617418c9da96d59cddd71134ae8af83
+  TextAttributes: 89905fb52c36de587010f335bd4071463d9c6d9b
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  ZLPhotoBrowser: 193f779936f49a3f485100009efb8e0b8b3fb2fe
+
+PODFILE CHECKSUM: 09cd60e7439507f747f0e41f1851f8e26c810354
+
+COCOAPODS: 1.10.1
